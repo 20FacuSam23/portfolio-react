@@ -4,15 +4,16 @@ import logo from '/logo.png'
 
 function App() {
   const [count, setCount] = useState(0)
-  return (
+
+return (
     <>
-      <div>
+      <div className='Footer'>
         <a href="#" target="_blank">         
           <img src={logo} classNemae="logo" alt="ava"/>
         </a>       
       </div>
     </>
   )
-
 }
+
 export default App

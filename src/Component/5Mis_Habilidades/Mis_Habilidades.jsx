@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
   return (
     <>
-      <div>
+      <div className='Mis_Habilidades'>
         <a href="#" target="_blank">         
           <img src={logo} classNemae="logo" alt="ava"/>
         </a>       
