@@ -1,19 +1,21 @@
 import { useState } from 'react'
-
+import './Header.css'
 import logo from '/logo.png'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const Header = ({user}) => {
+  const{name, lastname}=user
+console.log(name)
   return (
     <>
-      <div className='Header'>
+      <div className='header'>
         <a href="#" target="_blank">         
-          <img src={logo} classNemae="logo" alt="ava"/>
+          <img src={user.img} classNemae="logo" alt="ava"/>
+          <p>{user.name}</p>
+          <p>{user.lastname}</p>
         </a>       
       </div>
     </>
   )
 }
 
-export default App
+export default Header

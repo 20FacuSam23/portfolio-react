@@ -7,7 +7,7 @@ function App() {
 
 return (
     <>
-      <div className='Footer'>
+      <div className='footer'>
         <a href="#" target="_blank">         
           <img src={logo} classNemae="logo" alt="ava"/>
         </a>       

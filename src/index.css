@@ -5,6 +5,7 @@
   --html-bg-color: #11111b;
   --html-container-margin: margin: 0 auto;
   --html-text-align: center;
+  --colo-text:white;
  
 }
 html{
@@ -12,5 +13,7 @@ html{
   margin: var(--html-conteiner-margin);  
   padding: 2rem;
   text-align: var(--html-text-align);
+  color: var(--colo-text);
 }
+
 

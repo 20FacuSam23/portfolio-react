@@ -1,18 +1,19 @@
-import { useState } from 'react'
+import React from 'react';
+import './Mis_Habilidades.css'
 
-import logo from '/logo.png'
 
-function App() {
-  const [count, setCount] = useState(0)
+
+  const Mis_Habilidades = ({img, nombre, por}) => {
+
   return (
-    <>
-      <div className='Mis_Habilidades'>
-        <a href="#" target="_blank">         
-          <img src={logo} classNemae="logo" alt="ava"/>
-        </a>       
+    
+      <div className='habilidad'>
+     <img src={img} alt=""/>
+     <h6>{nombre}</h6>
+     <p>{por}</p>
       </div>
-    </>
+    
   )
-
 }
-export default App
+
+export default Mis_Habilidades

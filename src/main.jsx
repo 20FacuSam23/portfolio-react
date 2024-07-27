@@ -12,15 +12,7 @@ import Footer from './Component/8Footer/Footer.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <React.StrictMode>     
     <App />
-    <Header/>
-    <Hero/>
-    <Diseño/>
-    <Edu_Exp/>
-    <Mis_Habilidades/>
-    <Ejemplos/>
-    <Formulario/>
-    <Footer/>
   </React.StrictMode>,
 )

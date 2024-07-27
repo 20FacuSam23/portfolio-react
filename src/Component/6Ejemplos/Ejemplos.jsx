@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='Ejemplos'>
+      <div className='ejemplos'>
         <a href="#" target="_blank">         
           <img src={logo} classNemae="logo" alt="ava"/>
         </a>       
